@@ -1,0 +1,162 @@
+#ifndef __FRAME_ID_H__
+#define __FRAME_ID_H__
+
+
+// 유가증권주식_실시간_인터넷(KRX)_20140901_2014080701.xls
+const int SIZE_OF_KSE_A0011 = 802    ;   // 코스피_종목배치
+const int SIZE_OF_KSE_A1011 = 912    ;   // ELW 종목배치
+const int SIZE_OF_KSE_M6011 = 542    ;   // 조기종료ELW_종목배치
+const int SIZE_OF_KSE_I5011 = 32     ;   // 코스피_결산일 정보
+const int SIZE_OF_KSE_I6011 = 52     ;   // 코스피_종목 이벤트 정보
+const int SIZE_OF_KSE_A3011 = 162    ;   // 코스피_체결
+const int SIZE_OF_KSE_A4011 = 62     ;   // 코스피_기준가결정
+const int SIZE_OF_KSE_A5011 = 32     ;   // 코스피_임의종료
+const int SIZE_OF_KSE_A6011 = 92     ;   // 코스피_종목마감
+const int SIZE_OF_KSE_A7011 = 52     ;   // 코스피_장운영TS
+const int SIZE_OF_KSE_O6011 = 42     ;   // 코스피_배분정보
+const int SIZE_OF_KSE_I7011 = 162    ;   // 코스피_LP 정보
+const int SIZE_OF_KSE_C4011 = 112    ;   // 코스피_대량체결
+const int SIZE_OF_KSE_A8011 = 122    ;   // 코스피_주식종목정보공개
+const int SIZE_OF_KSE_R3011 = 52     ;   // 코스피_회원제재해제공개
+const int SIZE_OF_KSE_M4011 = 62     ;   // 코스피_장운영스케줄공개
+const int SIZE_OF_KSE_M5011 = 92     ;   // 조기종료ELW 평가기간 중 기초자산고저가
+const int SIZE_OF_KSE_B1011 = 292    ;   // 코스피_시세종가
+const int SIZE_OF_KSE_B2011 = 292    ;   // 코스피_시세RECOVERY
+const int SIZE_OF_KSE_B3011 = 172    ;   // 코스피_시간외단일가_최종
+const int SIZE_OF_KSE_B4011 = 172    ;   // 코스피_시간외단일가_시세
+const int SIZE_OF_KSE_B5011 = 62     ;   // 코스피_현재등락
+const int SIZE_OF_KSE_B6011 = 562    ;   // 코스피_호가잔량_LP호가_제외
+const int SIZE_OF_KSE_B7011 = 802    ;   // 코스피_호가잔량_LP호가_포함
+const int SIZE_OF_KSE_B8011 = 62     ;   // 코스피_장개시전_호가잔량
+const int SIZE_OF_KSE_C0011 = 88     ;   // 코스피_업종별투자자별
+const int SIZE_OF_KSE_C2011 = 382    ;   // 코스피_프로그램매매 일별차익거래잔고
+const int SIZE_OF_KSE_J1011 = 132    ;   // 코스피_프로그램매매 차익거래잔고주석
+const int SIZE_OF_KSE_C3011 = 462    ;   // 코스피_프로그램매매 호가
+const int SIZE_OF_KSE_J0011 = 442    ;   // 코스피_프로그램매매 전체집계
+const int SIZE_OF_KSE_C5011 = 102    ;   // 코스피_프로그램매매 사전공시
+const int SIZE_OF_KSE_C6011 = 82     ;   // ELW 투자지표
+const int SIZE_OF_KSE_C8011 = 52     ;   // KRX100지수
+const int SIZE_OF_KSE_C9011 = 52     ;   // KRX100예상지수
+const int SIZE_OF_KSE_D0011 = 52     ;   // KOSPI지수
+const int SIZE_OF_KSE_D1011 = 52     ;   // KOSPI예상지수
+const int SIZE_OF_KSE_D2011 = 52     ;   // KOSPI200지수
+const int SIZE_OF_KSE_D3011 = 52     ;   // KOSPI200예상지수
+const int SIZE_OF_KSE_D4011 = 52     ;   // KOSPI100/50지수
+const int SIZE_OF_KSE_D6011 = 52     ;   // KODI(배당)지수
+const int SIZE_OF_KSE_D7011 = 52     ;   // KODI예상지수
+const int SIZE_OF_KSE_K2011 = 52     ;   // "레버리지KOSPI200지수"
+const int SIZE_OF_KSE_E0011 = 52     ;   // 섹터지수
+const int SIZE_OF_KSE_E1011 = 52     ;   // 섹터예상지수
+const int SIZE_OF_KSE_L0011 = 52     ;   // KRX SRI지수
+const int SIZE_OF_KSE_L1011 = 52     ;   // KRX SRI예상지수
+const int SIZE_OF_KSE_E9011 = 1372   ;   // 공시(배치_코스피_주식)
+const int SIZE_OF_KSE_F0011 = 1372   ;   // 공시(실시간_코스피_주식)
+const int SIZE_OF_KSE_N1011 = 52     ;   // KRX 녹색산업지수
+const int SIZE_OF_KSE_N2011 = 52     ;   // KRX 녹색산업예상지수
+const int SIZE_OF_KSE_N5011 = 52     ;   // KOSPI200 섹터지수
+const int SIZE_OF_KSE_N6011 = 52     ;   // KOSPI200 섹터예상지수
+const int SIZE_OF_KSE_N9011 = 52     ;   // 동일가중지수
+const int SIZE_OF_KSE_O1011 = 52     ;   // 동일가중예상지수
+const int SIZE_OF_KSE_O4011 = 62     ;   // 코스피_Buy-in_실행수량
+const int SIZE_OF_KSE_P0011 = 138    ;   // 유가 프로그램매매 투자자별 매매현황
+const int SIZE_OF_KSE_P2011 = 18     ;   // 유가 업종별 배당수익률
+const int SIZE_OF_KSE_B9011 = 382    ;   // 코스피_거래원
+const int SIZE_OF_KSE_M9011 = 212    ;   // 회원사정보
+const int SIZE_OF_KSE_LK000 = 13     ;   // LINK
+const int SIZE_OF_KSE_DT000 = 105;       // 종목별 투자자별 종가(FTP)
+const int SIZE_OF_KSE_F1011 = 82;        // 외국인 종목별투자정보(확정치)
+const int SIZE_OF_KSE_F4011 = 60;        // 외국인 확정치데이터재전송
+const int SIZE_OF_KSE_F7011 = 70;        // ETF_NAV
+const int SIZE_OF_KSE_I3011 = 50;        // ETF_예상 NAV
+const int SIZE_OF_KSE_R8011 = 82;        // 코스피_종목상태정보(VI)
+
+const int SIZE_OF_KSE_A1041 = 302;       // ETN 종목배치
+const int SIZE_OF_KSE_S1011 = 102;       // ETN 사무수탁정보
+const int SIZE_OF_KSE_S2011 = 202;       // ETN 기초지수 구성종목
+const int SIZE_OF_KSE_S3011 = 72;        // ETN IIV
+
+const int SIZE_OF_KOSDAQ_A0012 = 802   ;   // 코스닥_종목배치
+const int SIZE_OF_KOSDAQ_I5012 = 32    ;   // 코스닥_결산일 정보
+const int SIZE_OF_KOSDAQ_I6012 = 52    ;   // 코스닥_종목 이벤트 정보
+const int SIZE_OF_KOSDAQ_I7012 = 162   ;   // 코스닥_LP 정보
+const int SIZE_OF_KOSDAQ_A3012 = 162   ;   // 코스닥_체결
+const int SIZE_OF_KOSDAQ_A4012 = 62    ;   // 코스닥_기준가결정
+const int SIZE_OF_KOSDAQ_A5012 = 32    ;   // 코스닥_임의종료
+const int SIZE_OF_KOSDAQ_A6012 = 92    ;   // 코스닥_종목마감
+const int SIZE_OF_KOSDAQ_A7012 = 52    ;   // 코스닥_장운영TS
+const int SIZE_OF_KOSDAQ_O6012 = 42    ;   // 코스닥_배분정보
+const int SIZE_OF_KOSDAQ_C4012 = 112   ;   // 코스닥_대량체결
+const int SIZE_OF_KOSDAQ_A8012 = 122   ;   // 코스닥_주식종목정보공개
+const int SIZE_OF_KOSDAQ_R3012 = 52    ;   // 코스닥_회원제재해제공개
+const int SIZE_OF_KOSDAQ_M4012 = 62    ;   // 코스닥_장운영스케줄공개
+const int SIZE_OF_KOSDAQ_B1012 = 292   ;   // 코스닥_시세종가
+const int SIZE_OF_KOSDAQ_B2012 = 292   ;   // 코스닥_시세RECOVERY
+const int SIZE_OF_KOSDAQ_B3012 = 172   ;   // 코스닥_시간외단일가_최종
+const int SIZE_OF_KOSDAQ_B4012 = 172   ;   // 코스닥_시간외단일가_시세
+const int SIZE_OF_KOSDAQ_B5012 = 62    ;   // 코스닥_현재등락
+const int SIZE_OF_KOSDAQ_B6012 = 562   ;   // 코스닥_호가잔량_LP호가_제외
+const int SIZE_OF_KOSDAQ_B8012 = 62    ;   // 코스닥_장개시전_호가잔량
+const int SIZE_OF_KOSDAQ_C0012 = 88    ;   // 코스닥_업종별투자자별
+const int SIZE_OF_KOSDAQ_C2012 = 382   ;   // 코스닥_프로그램매매 일별차익거래잔고
+const int SIZE_OF_KOSDAQ_J1012 = 132   ;   // 코스닥_프로그램매매 차익거래잔고주석
+const int SIZE_OF_KOSDAQ_C3012 = 462   ;   // 코스닥_프로그램매매 호가
+const int SIZE_OF_KOSDAQ_J0012 = 442   ;   // 코스닥_프로그램매매 전체집계
+const int SIZE_OF_KOSDAQ_C5012 = 102   ;   // 코스닥_프로그램매매 사전사후공시
+const int SIZE_OF_KOSDAQ_E4012 = 52    ;   // KOSDAQ지수
+const int SIZE_OF_KOSDAQ_E5012 = 52    ;   // KOSDAQ예상지수
+const int SIZE_OF_KOSDAQ_E6012 = 52    ;   // KOSTAR지수
+const int SIZE_OF_KOSDAQ_E7012 = 52    ;   // KOSTAR예상지수
+const int SIZE_OF_KOSDAQ_L2012 = 52    ;   // "KOSDAQ프리미어지수"
+const int SIZE_OF_KOSDAQ_L3012 = 52    ;   // "KOSDAQ프리미어예상지수"
+const int SIZE_OF_KOSDAQ_E9012 = 1372  ;   // 공시(배치_코스닥_주식)
+const int SIZE_OF_KOSDAQ_F0012 = 1372  ;   // 공시(실시간_코스닥_주식)
+const int SIZE_OF_KOSDAQ_O4012 = 62    ;   // 코스닥_Buy-in_실행수량
+const int SIZE_OF_KOSDAQ_P0012 = 138   ;   // 코스닥 프로그램매매 투자자별 매매현황
+const int SIZE_OF_KOSDAQ_P2012 = 18    ;   // 코스닥 업종별 배당수익률
+const int SIZE_OF_KOSDAQ_B9012 = 382   ;   // 코스닥_거래원
+const int SIZE_OF_KOSDAQ_LK000 = 13    ;   // LINK
+const int SIZE_OF_KOSDAQ_DT000 = 105;      // 종목별 투자자별 종가(FTP)
+const int SIZE_OF_KOSDAQ_F1012 = 82;        // 외국인 종목별투자정보(확정치)
+const int SIZE_OF_KOSDAQ_F4012 = 60;        // 외국인 확정치데이터재전송
+const int SIZE_OF_KOSDAQ_R8012 = 82;        // 코스닥_종목상태정보(VI)
+
+const int SIZE_OF_KOSPI_200_FUTURE_A0014 = 1202    ;   // K200선물_종목정보 데이터
+const int SIZE_OF_KOSPI_200_FUTURE_B6014 = 222     ;   // K200선물_우선호가
+const int SIZE_OF_KOSPI_200_FUTURE_A3014 = 119     ;   // K200선물_체결
+const int SIZE_OF_KOSPI_200_FUTURE_G7014 = 301     ;   // K200선물_체결_우선호가
+const int SIZE_OF_KOSPI_200_FUTURE_A6014 = 239     ;   // K200선물_종목마감
+const int SIZE_OF_KOSPI_200_FUTURE_A7014 = 248     ;   // K200선물_장운용TS
+const int SIZE_OF_KOSPI_200_FUTURE_H0014 = 8       ;   // K200선물_마감
+const int SIZE_OF_KOSPI_200_FUTURE_O6014 = 34      ;   // K200선물_배분정보
+const int SIZE_OF_KOSPI_200_FUTURE_H1014 = 147     ;   // K200선물_투자자 데이터
+const int SIZE_OF_KOSPI_200_FUTURE_H2014 = 41      ;   // K200선물_미결제약정수량 데이터
+const int SIZE_OF_KOSPI_200_FUTURE_H3014 = 56      ;   // K200선물_정산가격 데이터
+const int SIZE_OF_KOSPI_200_FUTURE_M4014 = 59      ;   // K200선물_장운영스케줄공개
+const int SIZE_OF_KOSPI_200_FUTURE_B2014 = 299     ;   // K200선물_시세Recovery 데이터
+const int SIZE_OF_KOSPI_200_FUTURE_Q2014 = 45      ;   // K200선물_실시간상하한가 적용및해제
+const int SIZE_OF_KOSPI_200_FUTURE_LK000 = 13;       // LINK
+
+
+const int SIZE_OF_KOSPI_200_OPTION_A0034 = 1202    ;   // K200옵션_종목정보 데이터
+const int SIZE_OF_KOSPI_200_OPTION_B6034 = 224     ;   // K200옵션_우선호가
+const int SIZE_OF_KOSPI_200_OPTION_A3034 = 105     ;   // K200옵션_체결
+const int SIZE_OF_KOSPI_200_OPTION_G7034 = 289     ;   // K200옵션_체결_우선호가
+const int SIZE_OF_KOSPI_200_OPTION_A6034 = 242     ;   // K200옵션_종목마감
+const int SIZE_OF_KOSPI_200_OPTION_A7034 = 249     ;   // K200옵션_장운용TS
+const int SIZE_OF_KOSPI_200_OPTION_H0034 = 8       ;   // K200옵션_마감
+const int SIZE_OF_KOSPI_200_OPTION_O6034 = 35      ;   // K200옵션_배분정보
+const int SIZE_OF_KOSPI_200_OPTION_H1034 = 94      ;   // K200옵션_투자자 데이터
+const int SIZE_OF_KOSPI_200_OPTION_H2034 = 42      ;   // K200옵션_미결제약정수량 데이터
+const int SIZE_OF_KOSPI_200_OPTION_H3034 = 57      ;   // K200옵션_매매증거금기준가 데이터
+const int SIZE_OF_KOSPI_200_OPTION_B2034 = 286     ;   // K200옵션_시세Recovery 데이터
+const int SIZE_OF_KOSPI_200_OPTION_M7034 = 52      ;   // K200옵션_장개시전협의거래
+const int SIZE_OF_KOSPI_200_OPTION_M4034 = 59      ;   // K200옵션_장운영스케쥴공개
+const int SIZE_OF_KOSPI_200_OPTION_P1034 = 48      ;   // KOSPI200옵션 내재변동성
+const int SIZE_OF_KOSPI_200_OPTION_N7034 = 142     ;   // KOSPI200옵션 민감도
+const int SIZE_OF_KOSPI_200_OPTION_Q2034 = 44      ;   // K200옵션_실시간상하한가 적용및해제
+const int SIZE_OF_KOSPI_200_OPTION_LK000 = 13;          // LINK
+
+
+
+#endif  
+
