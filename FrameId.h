@@ -1,6 +1,7 @@
 #ifndef __FRAME_ID_H__
 #define __FRAME_ID_H__
 
+const int SIZE_OF_KSE_A0011_9082 = 1010;
 
 // 유가증권주식_실시간_인터넷(KRX)_20140901_2014080701.xls
 const int SIZE_OF_KSE_A0011 = 802    ;   // 코스피_종목배치
